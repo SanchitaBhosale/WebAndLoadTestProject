@@ -109,7 +109,7 @@
           <QueryStringParameters>
             <QueryStringParameter Name="s" Value="webhp" RecordedValue="webhp" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
             <QueryStringParameter Name="t" Value="aft" RecordedValue="aft" CorrelationBinding="{{QueryStringParam149.t}}" UrlEncode="False" UseToGroupResults="False" />
-            <QueryStringParameter Name="atyp" Value="csi" RecordedValue="csi" CorrelationBinding="{{QueryStringParam150.atyp}}" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="atyp" Value="{{QueryStringParam150.atyp}}" RecordedValue="csi" CorrelationBinding="{{QueryStringParam150.atyp}}" UrlEncode="False" UseToGroupResults="False" />
             <QueryStringParameter Name="ei" Value="{{$HIDDEN1.ei}}" RecordedValue="d0ouXILJGonNvgTciIPgBA" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
             <QueryStringParameter Name="rt" Value="wsrt.467,aft.68,prt.68" RecordedValue="wsrt.467,aft.68,prt.68" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
           </QueryStringParameters>
@@ -122,44 +122,44 @@
             <RuleParameter Name="HtmlDecode" Value="True" />
           </RuleParameters>
         </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam150.atyp" DisplayName="Extract Text" Description="Extract text from the response and place it into the test context.">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;atyp=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam170.atyp" DisplayName="Extract Text" Description="Extract text from the response and place it into the test context.">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;atyp=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam211.atyp" DisplayName="Extract Text" Description="Extract text from the response and place it into the test context.">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;atyp=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
       </ExtractionRules>
       <CorrelationExtractionRules>
         <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam149.t" DisplayName="" Description="">
           <RuleParameters>
             <RuleParameter Name="StartsWith" Value="&amp;t=" />
-            <RuleParameter Name="EndsWith" Value="&amp;" />
-            <RuleParameter Name="Index" Value="0" />
-            <RuleParameter Name="IgnoreCase" Value="False" />
-            <RuleParameter Name="UseRegularExpression" Value="False" />
-            <RuleParameter Name="HtmlDecode" Value="True" />
-            <RuleParameter Name="Required" Value="False" />
-          </RuleParameters>
-        </ExtractionRule>
-        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam150.atyp" DisplayName="" Description="">
-          <RuleParameters>
-            <RuleParameter Name="StartsWith" Value="&amp;atyp=" />
-            <RuleParameter Name="EndsWith" Value="&amp;" />
-            <RuleParameter Name="Index" Value="0" />
-            <RuleParameter Name="IgnoreCase" Value="False" />
-            <RuleParameter Name="UseRegularExpression" Value="False" />
-            <RuleParameter Name="HtmlDecode" Value="True" />
-            <RuleParameter Name="Required" Value="False" />
-          </RuleParameters>
-        </ExtractionRule>
-        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam170.atyp" DisplayName="" Description="">
-          <RuleParameters>
-            <RuleParameter Name="StartsWith" Value="&amp;atyp=" />
-            <RuleParameter Name="EndsWith" Value="&amp;" />
-            <RuleParameter Name="Index" Value="0" />
-            <RuleParameter Name="IgnoreCase" Value="False" />
-            <RuleParameter Name="UseRegularExpression" Value="False" />
-            <RuleParameter Name="HtmlDecode" Value="True" />
-            <RuleParameter Name="Required" Value="False" />
-          </RuleParameters>
-        </ExtractionRule>
-        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam211.atyp" DisplayName="" Description="">
-          <RuleParameters>
-            <RuleParameter Name="StartsWith" Value="&amp;atyp=" />
             <RuleParameter Name="EndsWith" Value="&amp;" />
             <RuleParameter Name="Index" Value="0" />
             <RuleParameter Name="IgnoreCase" Value="False" />
@@ -180,7 +180,7 @@
         <Header Name="Referer" Value="https://www.google.com/?gws_rd=ssl" />
       </Headers>
       <QueryStringParameters>
-        <QueryStringParameter Name="atyp" Value="csi" RecordedValue="csi" CorrelationBinding="{{QueryStringParam170.atyp}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="atyp" Value="{{QueryStringParam170.atyp}}" RecordedValue="csi" CorrelationBinding="{{QueryStringParam170.atyp}}" UrlEncode="False" UseToGroupResults="False" />
         <QueryStringParameter Name="ei" Value="{{$HIDDEN1.ei}}" RecordedValue="d0ouXILJGonNvgTciIPgBA" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
         <QueryStringParameter Name="s" Value="jsa" RecordedValue="jsa" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
         <QueryStringParameter Name="jsi" Value="s,t.0,et.focus,n.iDPoPb,cn.1" RecordedValue="s,t.0,et.focus,n.iDPoPb,cn.1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
@@ -210,7 +210,7 @@
         <Header Name="Referer" Value="https://www.google.com/?gws_rd=ssl" />
       </Headers>
       <QueryStringParameters>
-        <QueryStringParameter Name="atyp" Value="csi" RecordedValue="csi" CorrelationBinding="{{QueryStringParam211.atyp}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="atyp" Value="{{QueryStringParam211.atyp}}" RecordedValue="csi" CorrelationBinding="{{QueryStringParam211.atyp}}" UrlEncode="False" UseToGroupResults="False" />
         <QueryStringParameter Name="ei" Value="{{$HIDDEN1.ei}}" RecordedValue="d0ouXILJGonNvgTciIPgBA" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
         <QueryStringParameter Name="s" Value="webhp" RecordedValue="webhp" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
         <QueryStringParameter Name="t" Value="all" RecordedValue="all" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />

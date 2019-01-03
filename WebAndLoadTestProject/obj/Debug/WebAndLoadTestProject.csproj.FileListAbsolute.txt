@@ -6,3 +6,5 @@ c:\users\advay\source\repos\WebAndLoadTestProject\WebAndLoadTestProject\obj\Debu
 c:\users\advay\source\repos\WebAndLoadTestProject\WebAndLoadTestProject\obj\Debug\WebAndLoadTestProject.csproj.CopyComplete
 c:\users\advay\source\repos\WebAndLoadTestProject\WebAndLoadTestProject\obj\Debug\WebAndLoadTestProject.dll
 c:\users\advay\source\repos\WebAndLoadTestProject\WebAndLoadTestProject\obj\Debug\WebAndLoadTestProject.pdb
+c:\users\advay\source\repos\WebAndLoadTestProject\WebAndLoadTestProject\bin\Debug\WebTest2.webtest
+c:\users\advay\source\repos\WebAndLoadTestProject\WebAndLoadTestProject\obj\Debug\WebAndLoadTestProject.csprojAssemblyReference.cache
